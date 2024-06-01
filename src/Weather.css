@@ -7,7 +7,7 @@
 }
 
 .Weather h1{
-    color: #878787;
+    color: #fca7a7;
     font-size: 24px;
     line-height: 29px;
     margin: 20px 0 0 0;
@@ -31,12 +31,14 @@ line-height: 19px;
     line-height: 64px;
     font-size: 64px;
     font-weight: 400;
-    color: rgb(35, 35, 35);
+    color: #fca7a7;
+
 }
-.Weather img{
+.Weather canvas{
    vertical-align:bottom;
     display: inline-block;
-    width: 64px;
+    margin-bottom: 5px;
+    margin-right: 10px;
 }
 .Weather .unit{
     font-size: 16px;
@@ -45,4 +47,15 @@ line-height: 19px;
     position: relative;
     top: -34px;
     line-height: 1;
+}
+.button{
+    color: white;
+    background-color: #ffcece;
+}
+.form-control:focus{
+    color: #ffcece !important;
+    box-shadow: 0 0 0 0.25rem rgba(251, 203, 229, 0.25);
+}
+a{
+  color:  #fca7a7;
 }
