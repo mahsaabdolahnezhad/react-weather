@@ -1,13 +1,16 @@
+body{
+    background-color: var(--body_background);
+}
 .Weather{
     border: 1px solid #dadde1 ;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(135, 135, 135);
+    color: var(--body_color);
     padding: 16px;
     border-radius: 4px;
 }
 
 .Weather h1{
-    color: #fca7a7;
+    color: var(--primary_color);
     font-size: 24px;
     line-height: 29px;
     margin: 20px 0 0 0;
@@ -29,9 +32,9 @@ line-height: 19px;
 }
 .Weather .temprature{
     line-height: 64px;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 400;
-    color: #fca7a7;
+    color: var(--primary_color);
 
 }
 .Weather canvas{
@@ -43,19 +46,19 @@ line-height: 19px;
 .Weather .unit{
     font-size: 16px;
     font-weight: 400;
-    color: rgb(33, 33, 33);
+    color: var(--third_color);
     position: relative;
     top: -34px;
     line-height: 1;
 }
 .button{
-    color: white;
-    background-color: #ffcece;
+    color: var(--body_background);
+    background-color: var(--secondary_color);
 }
 .form-control:focus{
-    color: #ffcece !important;
+    color: var(--secondary_color) !important;
     box-shadow: 0 0 0 0.25rem rgba(251, 203, 229, 0.25);
 }
 a{
-  color:  #fca7a7;
+  color:  var(--primary_color);
 }

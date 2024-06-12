@@ -1,0 +1,18 @@
+:root{
+--body_background: white;
+--body_color: rgb(135, 135, 135);
+--primary_color: #fca7a7;
+--secondary_color:#ffcece;
+--third_color:rgb(33, 33, 33);
+}
+
+[data-theme="dark"]{
+--body_background: #000000;  
+--body_color: rgb(255, 246, 246);
+--primary_color: #fca7a7;
+--secondary_color:#ffcece;
+--third_color:rgb(255, 255, 255);
+}
+*{
+    transition: all 0.3s ease-in-out;
+}
